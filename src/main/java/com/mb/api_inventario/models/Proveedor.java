@@ -3,15 +3,13 @@ package com.mb.api_inventario.models;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.time.LocalDateTime;
-
 @Entity
 @Data
-@Table(name = "ventas")
-public class Venta {
+@Table(name = "proveedores")
+public class Proveedor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private LocalDateTime fecha;
-    private double precioTotal;
+    private String nombre;
+    private String telefono;
 }
