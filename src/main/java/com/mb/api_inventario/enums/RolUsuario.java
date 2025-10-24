@@ -1,5 +1,5 @@
 package com.mb.api_inventario.enums;
 
-public enum UserRol {
+public enum RolUsuario {
     ADMIN, EMPLEADO
 }
