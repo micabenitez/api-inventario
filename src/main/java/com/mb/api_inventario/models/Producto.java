@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Data
@@ -23,7 +24,7 @@ public class Producto {
     private int stockActual;
     @Column(name = "stock_minimo")
     private int stockMinimo;
-    private double precio;
+    private BigDecimal precio;
 
     @ManyToOne(targetEntity = Categoria.class)
     Categoria categoria;
@@ -33,4 +34,19 @@ public class Producto {
 
     @OneToMany(targetEntity = Movimiento.class, fetch = FetchType.LAZY, mappedBy = "producto")
     private List<Movimiento> movimientos;
+
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "idProducto=" + idProducto +
+                ", sku='" + sku + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", stockActual=" + stockActual +
+                ", stockMinimo=" + stockMinimo +
+                ", precio=" + precio +
+                ", categoria=" + categoria +
+                ", proveedores=" + proveedores +
+                ", movimientos=" + movimientos +
+                '}';
+    }
 }

@@ -1,21 +1,21 @@
 package com.mb.api_inventario.services;
 
-import com.mb.api_inventario.models.Producto;
+import com.mb.api_inventario.dtos.ProductoDTO;
+import com.mb.api_inventario.dtos.Response;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface ProductoService {
-    Producto guardarProducto(Producto producto);
+    Response crearProducto(ProductoDTO producto);
 
-    Producto buscarProductoPorId(Long id);
+    Response buscarProductoPorId(Long id);
 
-    Producto actualizarProducto(Long id, Producto producto);
+    Response actualizarProducto(Long id, ProductoDTO producto);
 
-    void eliminarProductoPorId(Long id);
+    Response eliminarProductoPorId(Long id);
 
-    List<Producto> listarProductos();
+    Response listarProductos();
 
-    Producto buscarPorNombre(String nombre);
+    Response buscarPorNombre(String nombre);
 
 }
