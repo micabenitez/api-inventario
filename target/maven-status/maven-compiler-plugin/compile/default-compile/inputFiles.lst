@@ -1,4 +1,16 @@
 C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\ApiInventarioApplication.java
 C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\controllers\ProductoController.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\enums\RolUsuario.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\enums\TipoMovimiento.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\models\Categoria.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\models\Movimiento.java
 C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\models\Producto.java
-C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\ProductoRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\models\Proveedor.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\models\Usuario.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\ICategoriaRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\IMovimientoRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\IProductoRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\IProveedorRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\repositories\IUsuarioRepository.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\services\Impl\ProductoServiceImpl.java
+C:\Users\Mica\Desktop\java\api-inventario\api-inventario\src\main\java\com\mb\api_inventario\services\ProductoService.java

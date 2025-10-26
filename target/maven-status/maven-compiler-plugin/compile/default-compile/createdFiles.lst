@@ -1,0 +1,16 @@
+com\mb\api_inventario\models\Categoria.class
+com\mb\api_inventario\controllers\ProductoController.class
+com\mb\api_inventario\services\Impl\ProductoServiceImpl.class
+com\mb\api_inventario\models\Producto.class
+com\mb\api_inventario\repositories\IMovimientoRepository.class
+com\mb\api_inventario\repositories\IProductoRepository.class
+com\mb\api_inventario\enums\TipoMovimiento.class
+com\mb\api_inventario\enums\RolUsuario.class
+com\mb\api_inventario\models\Movimiento.class
+com\mb\api_inventario\repositories\IProveedorRepository.class
+com\mb\api_inventario\repositories\IUsuarioRepository.class
+com\mb\api_inventario\repositories\ICategoriaRepository.class
+com\mb\api_inventario\services\ProductoService.class
+com\mb\api_inventario\models\Proveedor.class
+com\mb\api_inventario\models\Usuario.class
+com\mb\api_inventario\ApiInventarioApplication.class

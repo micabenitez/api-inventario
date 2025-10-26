@@ -15,9 +15,29 @@ public class ProductoController {
     @Autowired
     private ProductoService productoService;
 
-    @CrossOrigin
     @GetMapping
     public List<Producto> getAllProductos() {
          return productoService.listarProductos();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<Producto> getProductoPorId(@PathVariable Long id) {
+        return ResponseEntity.ok(productoService.buscarProductoPorId(id));
+    }
+
+    @PostMapping
+    public ResponseEntity<Producto> guardarProducto(@RequestBody Producto producto) {
+        return ResponseEntity.ok(productoService.guardarProducto(producto));
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Producto> actualizarProducto(@PathVariable Long id, @RequestBody Producto producto) {
+        return ResponseEntity.ok(productoService.actualizarProducto(id, producto));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> eliminarProducto(@PathVariable Long id) {
+        productoService.eliminarProductoPorId(id);
+        return ResponseEntity.ok("Producto eliminado correctamente");
     }
 }
